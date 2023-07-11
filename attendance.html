@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+    <link rel="stylesheet" href="dashboardstyle.css">
+    <link rel="icon" href="logo.jpg" type = "image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style = "background-image: url('images/abstract-blur-defocused-bookshelf-library.jpg');background-size: cover;">
+    <div class="header">
+        <div class="sidenav">
+            <div class="user">
+                <img src="images/dp.jpg" class="user-dp">
+                <div>
+                    <h2>Shivam Das</h2>
+                    <p>shivamdas.0821@gmail.com</p>
+                </div>
+                <img src="images/images/star.png" class="star">
+            </div>
+            <ul>
+                <a href="dashboard.html"><li><img src="images/images/icons8-computer-64.png" alt=""><p>Dashboard</p></li></a>
+                <a href="result.html"><li><img src="images/images/icons8-result-64.png" alt=""><p>Result</p></li></a>
+                <a href="fees.html"><li><img src="images/images/icons8-fees-64.png" alt=""><p>Fees</p></li></a>
+                <li><img src="images/images/icons8-briefcase-64.png" alt=""><p>Projects</p></li>
+                <a href="attendance.html"><li><img src="images/images/icons8-attendance-50.png" alt=""><p>Attendance</p></li></a>
+                <li><img src="images/images/icons8-online-support-64.png"><p>Help & Support</p></li>
+            </ul>
+            <ul>
+                <a href="index.html" style="text-decoration: none; color: rgb(222, 222,222)"><li><img src="images/images/icons8-logout-50.png" alt=""><p>Logout</p></li></a>
+            </ul>
+        </div>
+        <div class="content">
+            <center> 
+                <h2>STUDENT'S ATTENDANCE VIEW</h2>
+                <hr>
+                <form action = "" method ="" class = "details">
+                  <table cellspacing="20px" align="left">
+                    <tr>
+                      <td>
+                        <label>Select Session</label>
+                        <select name="session" class="session" required>
+                          <option value="" class="select" disabled selected>20xx-20xx</option>
+                          <option value="Select Session" class="select">2023-2024</option>
+                        </select>
+                      </td>
+                      <td>
+                        <label>Select Stream</label>
+                        <select name="session" class="session" required>
+                          <option value="" class="select1" disabled selected>----</option>
+                          <option value="Select Stream" class="select1">B.Tech</option>
+                        </select>
+            
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <label>Roll No.</label>
+                        <input type="number" name="rollno" value="" required>
+                      </td>
+                      <td>
+                        <label>Select Semester</label>
+                        <select name="semes" class="session">
+                          <option value="" class="select2" disabled selected>----</option>
+                          <option value="s1" class="select2">1</option>
+                          <option value="s2" class="select2">2</option>
+                          <option value="s3" class="select2">3</option>
+                          <option value="s4" class="select2">4</option>
+                          <option value="s5" class="select2">5</option>
+                          <option value="s6" class="select2">6</option>
+                          <option value="s7" class="select2">7</option>
+                          <option value="s8" class="select2">8</option>
+                        </select>
+                      </td>
+                    </tr>
+                  </table>
+                  <button class="result_button" >View Attendence</button>
+                </form>
+                
+              </center>
+        </div>
+    </div>
+</body>
+</html>
